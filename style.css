@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f5f2;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #c8b6ff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #c8b6ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Products Section */
+#products {
+    padding: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+/* Image styling */
+.product-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+.filters {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.filters button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #c8b6ff;
+    color: white;
+}
+.add-to-cart {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #c8b6ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Dark Mode */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+
+.dark-mode nav {
+    background-color: #333;
+}
+
+.dark-mode .product-card {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #444;
+    color: white;
+}
