@@ -97,7 +97,7 @@ const products = [
     },
     {
         name: "Cake Jellycat",
-        price: 849,
+        price: 299,
         category: "Plushies",
         image: "cake.jpg"
     },
@@ -109,7 +109,7 @@ const products = [
     },
     {
         name: "Demogorgon",
-        price: 849,
+        price: 215,
         category: "Plushies",
         image: "demo.jpg"
     },
